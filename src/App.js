@@ -3,11 +3,19 @@ import Gantt from './components/Gantt';
 import Toolbar from './components/Toolbar';
 import MessageArea from './components/MessageArea';
 import './App.css';
+import GanttDemo from './components/Gantt/Gantt1'
 
 const data = {
   data: [
-    { id: 1, text: 'Task #1', start_date: '2020-02-12', duration: 15, progress: 0.6 },
-    { id: 2, text: 'Task #2', start_date: '2020-02-16', duration: 3, progress: 0.4 }
+    {
+      id: 1, text: 'Task #1', start_date: '2020-02-12', duration: 5, planned_start: "2020-02-12 00:00:00",planned_end: "2020-02-15 00:00:00", progress: 0.6
+    },
+    {
+      id: 3, text: 'Task #1', start_date: '2020-02-12', duration: 15, planned_start: "2020-02-12 00:00:00",planned_end: "2020-02-17 00:00:00", progress: 0.6
+    },
+    {
+      id: 2, text: 'Task #2', start_date: '2020-02-16', duration: 3, planned_start: "2020-02-16 00:00:00", planned_end: "2020-02-19 00:00:00", progress: 0.4
+    }
   ],
   links: [
     // { id: 1, source: 1, target: 2, type: '0' }
@@ -65,9 +73,11 @@ class App extends Component {
             onDataUpdated={this.logDataUpdate}
           />
         </div>
+       
         <MessageArea
           messages={messages}
         />
+         {/* <GanttDemo/> */}
       </div>
     );
   }

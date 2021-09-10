@@ -907,6 +907,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@dhtmlx/trial-react-gantt@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.nlark.com/@dhtmlx/trial-react-gantt/download/@dhtmlx/trial-react-gantt-1.1.4.tgz#c237632337ad55345bad4dc0b6e34d5f150c3d8d"
+  integrity sha1-wjdjIzetVTRbrU3AtuNNXxUMPY0=
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -3425,10 +3430,10 @@ detect-port-alt@1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
-dhtmlx-gantt@^6.3.6:
-  version "6.3.6"
-  resolved "https://registry.yarnpkg.com/dhtmlx-gantt/-/dhtmlx-gantt-6.3.6.tgz#0ef62ad2a3925d98ff42b24433474449cfbd5f59"
-  integrity sha512-NV4N+X3mDKzt8wWX8kVkpiHsKyBIFxtGZqbL93ozm7pQnu4EmyO6szH0olP5Dd/do9+EEWMAzB8OsjYVz3brvw==
+dhtmlx-gantt@^7.1.6:
+  version "7.1.6"
+  resolved "https://registry.nlark.com/dhtmlx-gantt/download/dhtmlx-gantt-7.1.6.tgz#8cd98e4e5903b4a6033eb0d92c5824e5b4726b29"
+  integrity sha1-jNmOTlkDtKYDPrDZLFgk5bRyayk=
 
 diff-sequences@^24.9.0:
   version "24.9.0"
